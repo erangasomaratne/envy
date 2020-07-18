@@ -1,0 +1,12 @@
+.cart-dropdown {
+    background-color: rgba(#eee, .8);
+    border:.1rem solid #000;
+    width:25rem;
+    height: 35rem;
+    position:absolute;
+    right:4rem;
+    
+    &-btn {
+        margin-top:auto;
+    }
+}

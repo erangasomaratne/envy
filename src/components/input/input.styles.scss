@@ -1,0 +1,19 @@
+.input {
+    &-label {
+        padding-right: 2rem;
+        font-size: 1.7rem;
+        display: block;
+        margin-bottom: 2rem;
+    }
+
+    &:not(:last-child) {
+        margin-bottom: 2rem;
+    }
+
+   &-text-box {
+       width:80%;
+       border:none;
+       border-bottom: .1rem solid #000;
+       background-color: #eee;
+   } 
+}

@@ -1,0 +1,58 @@
+.navigation {    
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+       
+    &-items {
+        padding-top:.5rem;
+        padding-bottom: .5rem;
+        background-color:#000;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: space-between;
+
+        & > * {
+            padding:1rem 2rem;
+        }
+
+        &-title {
+            color:#eee;
+            letter-spacing: .5rem;
+            
+            &:hover {
+                cursor:pointer;                
+            }
+        }
+
+        &-menu{
+
+            & > * {
+                color:#eee;
+    
+               &:not(:last-child) {
+                   margin-right: 2rem;
+               }
+    
+               &:hover {
+                   cursor: pointer;
+               }
+            }
+
+            &-item-count {
+
+            background-color: #eee;
+            color:#000;
+            display: inline-block;
+            text-align: center;
+            width:2rem;
+            height: 2.2rem;
+            border-radius: 50%;
+            
+            }
+
+
+            
+
+        } 
+    
+    }
+}
